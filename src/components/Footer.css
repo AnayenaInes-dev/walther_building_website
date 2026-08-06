@@ -1,0 +1,88 @@
+.pieddepage{
+    width: 100%;
+    height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 152, 255);
+}
+.pieddepage section.info{
+    width: 95%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid gray; */
+}
+.pieddepage section.info .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid papayawhip;
+}
+.pieddepage section.info .liens{
+    width: 12%;
+    height: 70%;
+    font-weight: 500;
+
+    border: 1px solid papayawhip;
+}
+.pieddepage section.info .liens ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.pieddepage section.info .contacts{
+    height: 70%;
+    padding: 0.5%;
+    border: 1px solid papayawhip;
+}
+.pieddepage section.info .contacts ul{
+    height: 60%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    border: 1px solid papayawhip;
+}
+.pieddepage section.info .contacts h3{
+    font-weight: 500;
+    background-color: rgb(14, 152, 255);
+}
+.pieddepage section.info .contacts h3::after{
+    content: "";
+    height: 2px;
+    background-color: white;
+}
+.pieddepage section.info .contacts ul li{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pieddepage section.info .reseauxS ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.copyright {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid wheat;
+}
+.copyright hr{
+    border: 2px solid white;
+}
+.copyright p{
+    color: white;
+    font-weight: 500;
+}

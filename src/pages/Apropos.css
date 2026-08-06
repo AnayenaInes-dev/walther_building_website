@@ -1,0 +1,85 @@
+.info-entreprise{
+    width: 100%;
+    height: 70vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(14, 152, 255);
+}
+.info-entreprise h1{
+    font-size: 1em;
+    text-align: center;
+}
+
+.info-entreprise div{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid wheat;
+}
+.info-entreprise div p{
+    font-size: 0.95rem;
+    text-align: justify;
+    line-height: 24px;
+}
+.fondateur{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+}
+.fondateur h1{
+    text-align: center;
+    color: rgb(14, 152, 255);
+}
+.fondateur div{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+}
+.fondateur div p{
+    text-align: justify;
+    line-height: 26px;
+    color: rgb(62, 1, 28);
+}
+.fondateur  div img{
+    width: 30vw;
+    height: 69%;
+    border-radius: 8px;
+}
+.equipe{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+}
+.equipe h1{
+    text-align: center;
+    color: rgb(14, 152, 255);
+}
+.equipe div{
+    width: 18vw;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+}
+/* .equipe div img{} */
+.equipe div p{
+    font-size: 0.90rem;
+    text-align: center;
+    color: rgb(62, 1, 28);
+}
