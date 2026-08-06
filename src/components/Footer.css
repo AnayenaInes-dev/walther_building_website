@@ -20,26 +20,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid papayawhip;
+    /* border: 1px solid papayawhip; */
 }
 .pieddepage section.info .liens{
     width: 12%;
     height: 70%;
-    font-weight: 500;
-
-    border: 1px solid papayawhip;
-}
-.pieddepage section.info .liens ul{
-    list-style: none;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
+    padding: 0% 1%;
+    /* border: 1px solid papayawhip; */
+}
+.pieddepage section.info .liens a{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-decoration: none;
 }
 .pieddepage section.info .contacts{
     height: 70%;
+
     padding: 0.5%;
-    border: 1px solid papayawhip;
+    /* border: 1px solid papayawhip; */
 }
 .pieddepage section.info .contacts ul{
     height: 60%;
@@ -48,7 +50,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
-    border: 1px solid papayawhip;
+    /* border: 1px solid papayawhip; */
 }
 .pieddepage section.info .contacts h3{
     font-weight: 500;
@@ -56,7 +58,8 @@
 }
 .pieddepage section.info .contacts h3::after{
     content: "";
-    height: 2px;
+    width: 10%;
+    height: 2%;
     background-color: white;
 }
 .pieddepage section.info .contacts ul li{
@@ -70,17 +73,18 @@
     flex-direction: column;
     justify-content: stretch;
 }
-
+hr{
+    width: 90%;
+    height: 0.5%;
+    background-color: rgb(255, 255, 255);
+}
 .copyright {
     width: 100%;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid wheat;
-}
-.copyright hr{
-    border: 2px solid white;
+    /* border: 1px solid wheat; */
 }
 .copyright p{
     color: white;

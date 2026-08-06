@@ -1,12 +1,16 @@
-import Entete from '../components/Entete'
-import Footer from '../components/Footer'
-import './Apropos.css'
+import employe1 from '../assets/employe_1.png'
+import employe2 from '../assets/employe_2.png'
+import employe3 from '../assets/employe_3.jpg'
+import employe4 from '../assets/employe_4.png'
+import employe5 from '../assets/employe_5.png'
+import employe6 from '../assets/testi-woman.jpg'
+import employe7 from '../assets/employe_6.jpeg'
+import employe8 from '../assets/employe_7.jpeg'
+import '../styles/Apropos.css'
 
 function Apropos() {
     return(
         <>
-            <Entete />
-
             <section className="info-entreprise">
                 <h1> Qui sommes nous </h1>
                 <div>
@@ -52,39 +56,50 @@ function Apropos() {
 
             <section className="equipe">
                 <h1> Notre personnel </h1>
-                <div>
-                    <img src="" alt="photo d'un membre de l'équipe" />
-                    <p> Nom & prénom </p>
-                    <p> Poste occupé </p>
-                </div>
-                <div>
-                    <img src="" alt="photo d'un membre de l'équipe" />
-                    <p> Nom & prénom </p>
-                    <p> Poste occupé </p>
-                </div>
-                <div>
-                    <img src="" alt="photo d'un membre de l'équipe" />
-                    <p> Nom & prénom </p>
-                    <p> Poste occupé </p>
-                </div>
-                <div>
-                    <img src="" alt="photo d'un membre de l'équipe" />
-                    <p> Nom & prénom </p>
-                    <p> Poste occupé </p>
-                </div>
-                <div>
-                    <img src="" alt="photo d'un membre de l'équipe" />
-                    <p> Nom & prénom </p>
-                    <p> Poste occupé </p>
-                </div>
-                <div>
-                    <img src="" alt="photo d'un membre de l'équipe" />
-                    <p> Nom & prénom </p>
-                    <p> Poste occupé </p>
+                <div className="grille">
+
+                    <div>
+                        <img src={employe1} width="140" height="140" alt="photo d'un membre de l'équipe" />
+                        <p> Nom & prénom </p>
+                        <p> Poste occupé </p>
+                    </div>
+                    <div>
+                        <img src={employe2} width="140" height="140" alt="photo d'un membre de l'équipe" />
+                        <p> Nom & prénom </p>
+                        <p> Poste occupé </p>
+                    </div>
+                    <div>
+                        <img src={employe3} width="140" height="140" alt="photo d'un membre de l'équipe" />
+                        <p> Nom & prénom </p>
+                        <p> Poste occupé </p>
+                    </div>
+                    <div>
+                        <img src={employe4} width="140" height="140" alt="photo d'un membre de l'équipe" />
+                        <p> Nom & prénom </p>
+                        <p> Poste occupé </p>
+                    </div>
+                    <div>
+                        <img src={employe5} width="140" height="140" alt="photo d'un membre de l'équipe" />
+                        <p> Nom & prénom </p>
+                        <p> Poste occupé </p>
+                    </div>
+                    <div>
+                        <img src={employe6} width="140" height="140" alt="photo d'un membre de l'équipe" />
+                        <p> Nom & prénom </p>
+                        <p> Poste occupé </p>
+                    </div>
+                    <div>
+                        <img src={employe7} width="140" height="140" alt="photo d'un membre de l'équipe" />
+                        <p> Nom & prénom </p>
+                        <p> Poste occupé </p>
+                    </div>
+                    <div>
+                        <img src={employe8} width="140" height="140" alt="photo d'un membre de l'équipe" />
+                        <p> Nom & prénom </p>
+                        <p> Poste occupé </p>
+                    </div>
                 </div>
             </section>
-
-            <Footer />
         </>
     )
 }

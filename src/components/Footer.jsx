@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logoBlanc from '../assets/logo-blanc-removebg.png';
 import './Footer.css';
 
@@ -10,12 +11,10 @@ function Footer() {
                     <img src={logoBlanc} width="280" height="180" alt="Logo-Walther-Building" />
                 </div>
                 <div className="liens">
-                    <ul>
-                        <li> A Propos</li> <br />
-                        <li> Services </li> <br />
-                        <li> Projets </li> <br />
-                        <li> Blog </li> <br />
-                    </ul>
+                    <Link to="/apropos"> A propos </Link> 
+                    <Link to="/services"> Services </Link> 
+                    <Link to="/projets"> Projets </Link> 
+                    <Link to="/blog"> Blog </Link>  
                 </div>
                 <div className="contacts">
                     <h3> Contacts </h3>

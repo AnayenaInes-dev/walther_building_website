@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import './Entete.css';
 import Logo from '../assets/logo-removebg.png';
+import './Entete.css';
 
 function Entete() {
     return(
@@ -10,12 +10,12 @@ function Entete() {
             </div>
             <nav className='navbar'>
                 <Link to="/"> Accueil </Link>
-                <Link to="/Apropos"> Accueil </Link>
-                <Link to="/Services"> Services </Link>
-                <Link to="/Projets"> Projets </Link>
-                <Link to="/Blog"> Blog </Link>
-                <Link to="/Contacts"> Contacts </Link>
-                <Link to="/Galerie"> Galerie </Link>
+                <Link to="/apropos"> A propos </Link>
+                <Link to="/services"> Services </Link>
+                <Link to="/projets"> Projets </Link>
+                <Link to="/blog"> Blog </Link>
+                <Link to="/contacts"> Contacts </Link>
+                <Link to="/galerie"> Galerie </Link>
             </nav>
             <div className="langues">
                 <select name="" id="">
