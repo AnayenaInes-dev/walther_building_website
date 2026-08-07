@@ -1,11 +1,90 @@
-import Entete from '../components/Entete'
-import Footer from '../components/Footer'
-// import '../styles/Projets.css'
+import projet1 from '../assets/project-to-be-resized-5-768x511.jpg'
+import projet2 from '../assets/project-to-be-resized.jpg'
+import projet3 from '../assets/project-to-be-resized-4-768x512.jpg'
+import projet4 from '../assets/project-to-be-resized-7-768x512.jpg'
+import projet5 from '../assets/project-to-be-resized-6-768x512.jpg'
+import projet6 from '../assets/project-to-be-resized-768x512.jpg'
+import '../styles/Projets.css'
 
 function Projets() {
-     return(
+    return (
         <>
-            
+            <section className="banniere">
+                <h1> Projets </h1>
+                <p>
+                    Chez Walther Building, nous sommes fiers de réaliser
+                    des projets de construction de qualité supérieure qui
+                    résiste à l'épreuve du temps. Explorez notre portefeuille
+                    d'œvres achevées et voyez pourquoi les clients nous font
+                    confiance avec leurs besoins en matière de construction.
+                </p>
+            </section>
+
+            <section className="grille">
+                <div className="categories">
+                    <button> Tous les projets </button>
+                    <button> Projets résidentiels </button>
+                    <button> Projets Commerciaux </button>
+                    <button> Rénovations </button>
+                    <button> Projets en cours </button>
+                </div>
+                <div className="cartes">
+
+                    <div className="projet" id="1">
+                        <div className="image">
+                            <img src={projet1}  alt="photo d'un bureau" />
+                        </div>
+                        <h4> Duplex </h4>
+                        <button> Consulter </button>
+                    </div>
+                    <div className="projet" id="2">
+                        <div className="image">
+                            <img src={projet2}  alt="photo d'un bureau" />
+                        </div>
+                        <h4> Maison </h4>
+                        <button> Consulter </button>
+                    </div>
+                    <div className="projet" id="3">
+                        <div className="image">
+                            <img src={projet3}  alt="photo d'un bureau" />
+                        </div>
+                        <h4> Duplex </h4>
+                        <button> Consulter </button>
+                    </div>
+                    <div className="projet" id="4">
+                        <div className="image">
+                            <img src={projet4}  alt="photo d'un bureau" />
+                        </div>
+                        <h4> Projet en cours </h4>
+                        <button> Consulter </button>
+                    </div>
+                    <div className="projet" id="5">
+                        <div className="image">
+                            <img src={projet5}  alt="photo d'un bureau" />
+                        </div>
+                        <h4> Maison </h4>
+                        <button> Consulter </button>
+                    </div>
+                    <div className="projet" id="6">
+                        <div className="image">
+                            <img src={projet6}  alt="photo d'un bureau" />
+                        </div>
+                        <h4> Résidence </h4>
+                        <button> Consulter </button>
+                    </div>
+                </div>
+            </section>
+
+            <section className="appel-action">
+                <div>
+                    <h4> Inspiré par notre travail ? </h4>
+                    <p>
+                        Contactez-nous dès aujourd'hui pour discuter de
+                        votre projett et obtenir un devis gratuit!
+                    </p>
+                    <button> Demander un devis </button>
+                </div>
+            </section>
         </>
     )
 }

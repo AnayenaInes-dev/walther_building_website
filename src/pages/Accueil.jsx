@@ -102,10 +102,10 @@ function Accueil() {
 
             <section className="avisClient">
                 <h1>Avis clients</h1>
-                <div className="avis">
-                    <div>
+                <div className="group-avis">
+                    <div className="avis" id='1'>
+                    <img src={testiwoman} id='user1' alt="photo de profile de l'utilisateur" />
                         <hgroup>
-                            <img src={testiwoman} alt="photo de profile de l'utilisateur" />
                             <p className="username"> Meredith Zuka </p>
                         </hgroup>
                         <p>
@@ -113,9 +113,10 @@ function Accueil() {
                             vraiment. Je recommande vivement leurs services.
                         </p>
                     </div>
-                    <div>
+
+                    <div className="avis" id=''>
+                        <img src={testiman} id='user2' alt="photo de profile de l'utilisateur" />
                         <hgroup>
-                            <img src={testiman} alt="photo de profile de l'utilisateur" />
                             <p className="username"> John Arrey </p>
                         </hgroup>
                         <p>

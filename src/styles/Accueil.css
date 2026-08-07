@@ -58,7 +58,7 @@
 .apropos div.logo{
   width: 30vw;
   height: 40%;
-  background-image: url(./assets/logo-removebg.png);
+  background-image: url(../assets/logo-removebg.png);
   background-size: contain;
   background-repeat: no-repeat;
   /* border: 1px solid gray; */
@@ -185,45 +185,52 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
 .avisClient h1{
   text-align: center;
   color: rgb(14, 152, 255);
 }
-.avisClient div.avis{
+.avisClient div.group-avis{
   width: 70%;
   height: 68vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
-.avisClient .avis div{
-  width: 26vw;
-  height: 59%;
+.avisClient div.group-avis .avis {
+  width: 23vw;
+  height: 69%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
   border-radius: 8px;
   border: hidden;
   background-color: rgb(62, 1, 28);
 }
-.avisClient .avis div div.pprofile#1{
-  width: 42%;
-  height: 42%;
-  clip-path: circle(20% at 50% 50%);
-  /* position: relative; */
-  /* left: -5%; */
-  /* top: -3%; */
-  background-image: url('./assets/testi-man.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.avisClient .avis div p.username{
+.avisClient div.group-avis .avis hgroup {
+  width: 76%;
   text-align: center;
-  font-weight: 600;
+  position: relative;
+  top: -28%;
+  left: 16%;
 }
-.avisClient .avis div p{
-  width: 75%;
+.avisClient div.group-avis .avis p{
+  width: 80%;
   text-align: justify;
-  margin: auto;
+  line-height: 22px;
+  position: relative;
+  top: -14%;
+}
+.avisClient div.group-avis img{
+  width: 6em;
+  height: 6em;
+  object-fit: cover;
+  position: relative;
+  top: -6%;
+  left: -44%;
+  border-radius: 100px;
 }

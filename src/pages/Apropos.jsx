@@ -6,6 +6,7 @@ import employe5 from '../assets/employe_5.png'
 import employe6 from '../assets/testi-woman.jpg'
 import employe7 from '../assets/employe_6.jpeg'
 import employe8 from '../assets/employe_7.jpeg'
+import photo from '../assets/chefdentreprise.png'
 import '../styles/Apropos.css'
 
 function Apropos() {
@@ -50,7 +51,7 @@ function Apropos() {
                         Ex sint nulla consectetur ullamco est ullamco reprehenderit sint. 
                         Anim proident elit cupidatat laboris ad tempor.
                     </p>
-                    <img src="" alt="photo du directeur" />
+                    <img src={photo} alt="photo du directeur" />
                 </div>
             </section>
 
