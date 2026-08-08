@@ -4,12 +4,13 @@ import iconeMarteau from '../assets/icons8-hammer-100.png'
 import iconePanneauSolaire from '../assets/icons8-panneau-solaire.png'
 import testiman from '../assets/testi-man.jpg'
 import testiwoman from '../assets/testi-woman.jpg'
-import '../styles/Accueil.css'
+import Carrousel from '../components/Carrousel.jsx'
+import styles from '../styles/Accueil.module.css'
 
 function Accueil() {
     return (
         <>
-            <section className="principale">
+            <section className={styles.principale}>
                 <div>
                     <h1> Construire votre avenir avec qualité & expertise </h1>
                     <p>
@@ -20,10 +21,10 @@ function Accueil() {
                 </div>
             </section>
 
-            <section className="apropos">
+            <section className={styles.apropos}>
                 <h1> L'entreprise </h1>
-                <div className="logo"></div> <br />
-                <div className="texte">
+                <div className={styles.logo}></div> <br />
+                <div className={styles.texte}>
                     <div id="1">
                         <h3> Notre histoire </h3>
                         <p>
@@ -47,24 +48,24 @@ function Accueil() {
                 </div>
             </section>
 
-            <section className="services">
+            <section className={styles.services}>
                 <h1>Services</h1>
-                <div className="cartes">
-                    <div className='carte' id="1">
+                <div className={styles.cartes}>
+                    <div className={styles.carte} id="1">
                         <div className="icone">
                             <img src={iconeMaison} width="100" height="98" alt="icône maison de icons8" />
                         </div>
                         <h4> Construction de maison personnalisée </h4>
                         <p> Construire la maison de rêve avec précision et soin. </p>
                     </div>
-                    <div className='carte' id="2">
+                    <div className={styles.carte} id="2">
                         <div className="icone">
                             <img src={iconeMarteau} width="100" height="98" alt="icône marteau de icons8" />
                         </div>
                         <h4> Rénovation </h4>
                         <p> Transformer les espaces avec les rénovations expertes. </p>
                     </div>
-                    <div className='carte' id="3">
+                    <div className={styles.carte} id="3">
                         <div className="icone">
                             <img src={iconePanneauSolaire} width="100" height="98" alt="icône panneau solaire de icons8" />
                         </div>
@@ -77,36 +78,18 @@ function Accueil() {
                 </div>
             </section>
 
-            <section className="projets">
+            <section className={styles.projets}>
                 <h1> Projets Récents </h1>
-                <div className="carrousel">
-                    <div className="galerie">
-                        <img id='1' src="" alt="" />
-                        <img id='2' src="" alt="" />
-                        <img id='3' src="" alt="" />
-                        <img id='4' src="" alt="" />
-                        <img id='5' src="" alt="" />
-                        <img id='6' src="" alt="" />
-                    </div>
-                    <br />
-                    <div className="btns">
-                        <button></button>
-                        <button></button>
-                        <button></button>
-                        <button></button>
-                        <button></button>
-                        <button></button>
-                    </div>
-                </div>
+                <Carrousel />
             </section>
 
-            <section className="avisClient">
+            <section className={styles.avisClient}>
                 <h1>Avis clients</h1>
-                <div className="group-avis">
-                    <div className="avis" id='1'>
+                <div className={styles.groupAvis}>
+                    <div className={styles.avis} id='1'>
                     <img src={testiwoman} id='user1' alt="photo de profile de l'utilisateur" />
                         <hgroup>
-                            <p className="username"> Meredith Zuka </p>
+                            <p> Meredith Zuka </p>
                         </hgroup>
                         <p>
                             Leur  souci du détail et leur engagement envers la qualité ressortent
@@ -114,10 +97,10 @@ function Accueil() {
                         </p>
                     </div>
 
-                    <div className="avis" id=''>
+                    <div className={styles.avis} id=''>
                         <img src={testiman} id='user2' alt="photo de profile de l'utilisateur" />
                         <hgroup>
-                            <p className="username"> John Arrey </p>
+                            <p> John Arrey </p>
                         </hgroup>
                         <p>
                             Leur  souci du détail et leur engagement envers la qualité ressortent

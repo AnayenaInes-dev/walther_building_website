@@ -1,4 +1,4 @@
-.banniere-galerie{
+.banniereGalerie{
     width: 100%;
     height: 45vh;
     display: flex;
@@ -7,16 +7,16 @@
     background-color: rgb(255, 255, 255);
     /* border: 1px solid gray; */
 }
-.banniere-galerie hgroup{
+.banniereGalerie hgroup{
     width: 60%;
     height: 30%;
     /* border: 1px solid gray; */
 }
-.banniere-galerie hgroup h1{
+.banniereGalerie hgroup h1{
     text-align: center;
     color: rgb(14, 152, 255);
 }
-.banniere-galerie hgroup p{
+.banniereGalerie hgroup p{
     text-align: center;
     line-height: 22px;
 }

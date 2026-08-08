@@ -38,23 +38,18 @@
     text-decoration: none;
 }
 .pieddepage section.info .contacts{
-    height: 70%;
-
-    padding: 0.5%;
-    /* border: 1px solid papayawhip; */
-}
-.pieddepage section.info .contacts ul{
-    height: 60%;
-    list-style: none;
+    width: 25%;
+    height: 27vh;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
-    /* border: 1px solid papayawhip; */
+    /* padding: 0.5%; */
+    border: 1px solid papayawhip;
 }
+
 .pieddepage section.info .contacts h3{
     font-weight: 500;
-    background-color: rgb(14, 152, 255);
 }
 .pieddepage section.info .contacts h3::after{
     content: "";
@@ -62,16 +57,38 @@
     height: 2%;
     background-color: white;
 }
-.pieddepage section.info .contacts ul li{
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-evenly;
+.pieddepage section.info .contacts  p{
+    text-align: right;
+}
+.pieddepage section.info .contacts  span{
+    width: 24px;
+    height: 24px;
+    float: left;
+    border: 1px solid gray;
+}
+.pieddepage section.info .contacts span img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.pieddepage section.info .reseauxS{
+    font-weight: 500;
 }
 .pieddepage section.info .reseauxS ul{
+    height: 70%;
+    float: left;
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
+    border: 1px solid gray;
+}
+.pieddepage section.info .reseauxS ul li{
+    width: 25px;
+    height: 25px;
+    margin: 0.5% auto;
+}
+.pieddepage section.info .reseauxS ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 hr{
     width: 90%;

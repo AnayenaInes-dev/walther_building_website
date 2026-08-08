@@ -1,0 +1,76 @@
+.banniere {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(58, 58, 58);
+}
+
+.banniere h1 {
+    text-align: center;
+    color: rgb(14, 152, 255);
+}
+
+.banniere p {
+    width: 60%;
+    color: white;
+    text-align: center;
+}
+
+.banniere div.reseaux {
+    width: 24vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid white;
+}
+
+.banniere div.reseaux span {
+    width: 30px;
+    height: 30px;
+}
+
+.banniere div.reseaux span img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banniere div.contacts {
+    width: 74vw;
+    height: 7vh;
+    position: absolute;
+    top: 52%;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(96, 96, 96);
+}
+.banniere div.contacts div {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.banniere div.contacts div p{
+    color: rgb(62, 1, 28);
+}
+.banniere div.contacts div img{
+    width: 25px;
+    height: 25px;
+}
+.formulaire{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+.formulaire form{
+    width: 40vw;
+    height: 45vh;
+    border: 1px solid gray;
+}

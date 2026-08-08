@@ -1,0 +1,40 @@
+ div.carrousel{
+  width: 65%;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  margin-top: 2%;
+  /* border: 1px solid gray; */
+}
+ div.carrousel div.galerie{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  /* border: 1px solid palevioletred; */
+}
+ div.carrousel div.galerie img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 8px;
+}
+div.btns{
+  width: 14vw;
+  height: 2.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  /* border: 1px solid gray; */
+}
+div.btns button{
+  width: 1.5em;
+  height: 0.25em;
+  border-radius: 2%;
+  border: hidden;
+  clip-path: circle(50% at 50% 50%);
+  background-color: rgb(181, 181, 181);
+}

@@ -7,12 +7,12 @@ import employe6 from '../assets/testi-woman.jpg'
 import employe7 from '../assets/employe_6.jpeg'
 import employe8 from '../assets/employe_7.jpeg'
 import photo from '../assets/chefdentreprise.png'
-import '../styles/Apropos.css'
+import styles from '../styles/Apropos.module.css'
 
 function Apropos() {
     return(
         <>
-            <section className="info-entreprise">
+            <section className={styles.infoEntreprise}>
                 <h1> Qui sommes nous </h1>
                 <div>
                     <p>
@@ -38,7 +38,7 @@ function Apropos() {
                 </div>
             </section>
 
-            <section className="fondateur">
+            <section className={styles.fondateur}>
                 <h1> Mot du directeur de l'entreprise </h1>
                 <div>
                     <p>
@@ -55,9 +55,9 @@ function Apropos() {
                 </div>
             </section>
 
-            <section className="equipe">
+            <section className={styles.equipe}>
                 <h1> Notre personnel </h1>
-                <div className="grille">
+                <div className={styles.grille}>
 
                     <div>
                         <img src={employe1} width="140" height="140" alt="photo d'un membre de l'équipe" />

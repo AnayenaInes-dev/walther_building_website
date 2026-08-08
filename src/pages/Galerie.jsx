@@ -7,12 +7,12 @@ import photo6 from '../assets/project-to-be-resized-5-768x511.jpg'
 import photo7 from '../assets/walther-hero-2.jpg'
 import photo8 from '../assets/projet-chantier.jpg'
 import photo9 from '../assets/project-to-be-resized-768x512.jpg'
-import '../styles/Galerie.css'
+import styles from '../styles/Galerie.module.css'
 
 function Galerie() {
      return(
         <>
-            <section className="banniere-galerie">
+            <section className={styles.banniereGalerie}>
                 <hgroup>
                     <h1> Galerie photo </h1>
                     <p>
@@ -22,8 +22,8 @@ function Galerie() {
                     </p>
                 </hgroup>
             </section>
-            <section className="photos">
-                <div className="galerie">
+            <section className={styles.photos}>
+                <div className={styles.galerie}>
                     <img src={photo1} width="300" height="200" alt="" />
                     <img src={photo2} width="300" height="200" alt="" />
                     <img src={photo3} width="300" height="200" alt="" />
