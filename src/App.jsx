@@ -10,6 +10,7 @@ import Galerie from './pages/Galerie.jsx'
 import DetailArticle from './pages/DetailArticle.jsx'
 import DetailService from './pages/DetailService.jsx'
 import DetailProjet from './pages/DetailProjet.jsx'
+import Admin from './pages/Admin.jsx'
 import Entete from './components/Entete'
 import Footer from './components/Footer.jsx'
 import 'leaflet/dist/leaflet.css';
@@ -33,9 +34,14 @@ function App() {
                 <Route path="/article/" element={<DetailArticle />} />
                 <Route path="/projet/" element={<DetailProjet />} />
                 <Route path="/service/" element={<DetailService />} />
+                
             </Routes>
             
             <Footer />
+            
+            {/* <Routes>
+                <Route path="/administrateur" element={<Admin />} />
+            </Routes> */}
         </>
     )
 }
