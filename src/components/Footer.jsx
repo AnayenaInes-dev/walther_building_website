@@ -25,18 +25,25 @@ function Footer() {
                 </div>
                 <div className="contacts">
                     <h3> Contacts </h3>
-                    <p> <span> <img src={localisation} alt="icône localisation" /> </span> Simbock, Opposite Mario, Yaoundé</p>
-                    <p> <span> <img src={enveloppe} alt="icône enveloppe" /> </span> waltherbuilding@gmail.com </p>
-                    <p> <span> <img src={telephone} alt="icône telephone" /> </span> +237 699 89 68 85 </p>
+                    <div>
+                        <img src={localisation} alt="icône localisation" />
+                        <p>Simbock, Yaoundé</p>
+                    </div>
+                    <div>
+                        <img src={enveloppe} alt="icône enveloppe" />
+                        <p> waltherbuilding@gmail.com </p>
+                    </div>
+                    <div>
+                        <img src={telephone} alt="icône telephone" />
+                        <p> +237 699 89 68 85 </p>
+                    </div>
                 </div>
                 <div className="reseauxS">
                     <h3> Réseaux Sociaux </h3>
-                    <ul>
-                        <li> <img src={facebook} alt="icone facebook" /> </li>
-                        <li> <img src={whatsapp} alt="icone whatsapp" /> </li>
-                        <li> <img src={linkedin} alt="icone linkedin" /> </li>
-                        <li> <img src={x} alt="icone x" /> </li>
-                    </ul>
+                    <img src={facebook} alt="icone facebook" />
+                    <img src={whatsapp} alt="icone whatsapp" />
+                    <img src={linkedin} alt="icone linkedin" />
+                    <img src={x} alt="icone x" />
                 </div>
             </section>
             <hr />

@@ -1,4 +1,4 @@
-.pieddepage{
+.pieddepage {
     width: 100%;
     height: 50vh;
     color: white;
@@ -8,7 +8,8 @@
     justify-content: center;
     background-color: rgb(14, 152, 255);
 }
-.pieddepage section.info{
+
+.pieddepage section.info {
     width: 95%;
     height: 35vh;
     display: flex;
@@ -16,13 +17,15 @@
     justify-content: space-evenly;
     /* border: 1px solid gray; */
 }
-.pieddepage section.info .logo{
+
+.pieddepage section.info .logo {
     display: flex;
     align-items: center;
     justify-content: center;
     /* border: 1px solid papayawhip; */
 }
-.pieddepage section.info .liens{
+
+.pieddepage section.info .liens {
     width: 12%;
     height: 70%;
     display: flex;
@@ -32,69 +35,65 @@
     padding: 0% 1%;
     /* border: 1px solid papayawhip; */
 }
-.pieddepage section.info .liens a{
+
+.pieddepage section.info .liens a {
     color: rgb(255, 255, 255);
     font-size: 1rem;
     text-decoration: none;
 }
-.pieddepage section.info .contacts{
+
+.pieddepage section.info .contacts {
     width: 25%;
     height: 27vh;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
-    /* padding: 0.5%; */
-    border: 1px solid papayawhip;
+    padding: 0.5%;
+    /* border: 1px solid papayawhip; */
 }
 
-.pieddepage section.info .contacts h3{
-    font-weight: 500;
+.pieddepage section.info .contacts div {
+    width: 85%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 1px solid gray; */
 }
-.pieddepage section.info .contacts h3::after{
-    content: "";
-    width: 10%;
-    height: 2%;
-    background-color: white;
+
+.pieddepage section.info .contacts div img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5%;
 }
-.pieddepage section.info .contacts  p{
-    text-align: right;
+
+.pieddepage section.info .reseauxS h3 {
+    color: rgb(255, 255, 255);
 }
-.pieddepage section.info .contacts  span{
-    width: 24px;
-    height: 24px;
-    float: left;
-    border: 1px solid gray;
+
+.pieddepage section.info .reseauxS {
+    /* width: 25%; */
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 0.5%;
+    /* border: 1px solid papayawhip; */
 }
-.pieddepage section.info .contacts span img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-}
-.pieddepage section.info .reseauxS{
-    font-weight: 500;
-}
-.pieddepage section.info .reseauxS ul{
-    height: 70%;
-    float: left;
-    list-style: none;
-    border: 1px solid gray;
-}
-.pieddepage section.info .reseauxS ul li{
+
+.pieddepage section.info .reseauxS img {
     width: 25px;
     height: 25px;
-    margin: 0.5% auto;
 }
-.pieddepage section.info .reseauxS ul li img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-}
-hr{
+
+hr {
     width: 90%;
     height: 0.5%;
     background-color: rgb(255, 255, 255);
 }
+
 .copyright {
     width: 100%;
     height: 10vh;
@@ -103,7 +102,8 @@ hr{
     justify-content: space-evenly;
     /* border: 1px solid wheat; */
 }
-.copyright p{
+
+.copyright p {
     color: white;
     font-weight: 500;
 }

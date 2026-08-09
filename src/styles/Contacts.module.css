@@ -1,41 +1,45 @@
 .banniere {
     width: 100%;
-    height: 45vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(58, 58, 58);
 }
-
-.banniere h1 {
+.banniere hgroup {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid gold; */
+}
+.banniere hgroup h1 {
     text-align: center;
     color: rgb(14, 152, 255);
 }
 
-.banniere p {
+.banniere hgroup p {
     width: 60%;
     color: white;
     text-align: center;
+    line-height: 24px;
+    font-size: 1rem;
 }
 
 .banniere div.reseaux {
-    width: 24vw;
+    width: 10vw;
     height: 5vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
-
-.banniere div.reseaux span {
-    width: 30px;
-    height: 30px;
-}
-
-.banniere div.reseaux span img {
-    width: 100%;
-    height: 100%;
+.banniere div.reseaux img {
+    width: 1.2em;
+    height: 1.2em;
+    padding: 1%;
     object-fit: cover;
 }
 
@@ -43,34 +47,95 @@
     width: 74vw;
     height: 7vh;
     position: absolute;
-    top: 52%;
-    border-radius: 8px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(96, 96, 96);
-}
-.banniere div.contacts div {
-    width: 80%;
+    top: 57%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 2px 9px 0px rgb(14, 152, 255, 20%);
+    /* border: 1px solid rgb(96, 96, 96); */
 }
-.banniere div.contacts div p{
+.banniere div.contacts div {
+    min-width: 11em;
+    height: 5vh;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto 4%;
+    /* border: 1px solid gold; */
+}
+/* .banniere div.contacts div img{
+    margin: auto 1.5% auto auto;
+} */
+ .banniere div.contacts div p{
+    text-align: center;
     color: rgb(62, 1, 28);
-}
-.banniere div.contacts div img{
-    width: 25px;
-    height: 25px;
+ }
+
+.banniere div.contacts img{
+    margin-right: 3%;
 }
 .formulaire{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid gray; */
+}
+.formulaire h1{
+    color:  rgb(14, 152, 255);
+}
+.formulaire form{
+    width: 34vw;
+    height: 65vh;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid gray; */
+}
+.formulaire form label{
+    width: 80%;
+    font-size: large;
+    /* margin-bottom: 0.5%; */
+}
+.formulaire form input{
+    width: 80%;
+    height: 2.4em;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 0.5%;
+    border-radius: 4px;
+    border: 2px solid rgb(14, 152, 255);
+}
+.formulaire form textarea{
+    width: 80%;
+    height: 12em;
+    border-radius: 4px;
+    border: 2px solid rgb(14, 152, 255);
+}
+.formulaire form button{
+    width: 80%;
+    height: 2.5em;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: hidden;
+    background-color: rgb(14, 152, 255);
+}
+.carte{
     width: 100%;
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid gray;
+    /* border: 1PX solid gray ; */
 }
-.formulaire form{
-    width: 40vw;
-    height: 45vh;
-    border: 1px solid gray;
+.carte div{
+    width: 98%;
+    height: 95%;
 }

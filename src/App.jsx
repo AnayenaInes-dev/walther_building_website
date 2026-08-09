@@ -7,8 +7,12 @@ import Projets from './pages/Projets.jsx'
 import Blog from './pages/Blog.jsx'
 import Contacts from './pages/Contacts.jsx'
 import Galerie from './pages/Galerie.jsx'
+import DetailArticle from './pages/DetailArticle.jsx'
+import DetailService from './pages/DetailService.jsx'
+import DetailProjet from './pages/DetailProjet.jsx'
 import Entete from './components/Entete'
 import Footer from './components/Footer.jsx'
+import 'leaflet/dist/leaflet.css';
 import './App.css'
 
 
@@ -26,6 +30,9 @@ function App() {
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/contacts" element={<Contacts />} />
                 <Route path="/galerie" element={<Galerie />} />
+                <Route path="/article/" element={<DetailArticle />} />
+                <Route path="/projet/" element={<DetailProjet />} />
+                <Route path="/service/" element={<DetailService />} />
             </Routes>
             
             <Footer />
