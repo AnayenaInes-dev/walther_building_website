@@ -7,11 +7,15 @@ import employe6 from '../assets/testi-woman.jpg'
 import employe7 from '../assets/employe_6.jpeg'
 import employe8 from '../assets/employe_7.jpeg'
 import photo from '../assets/chefdentreprise.png'
+import Entete from '../components/Entete'
+import Footer from '../components/Footer'
 import styles from '../styles/Apropos.module.css'
 
 function Apropos() {
     return(
         <>
+            <Entete />
+
             <section className={styles.infoEntreprise}>
                 <h1> Qui sommes nous </h1>
                 <div>
@@ -101,6 +105,8 @@ function Apropos() {
                     </div>
                 </div>
             </section>
+
+            <Footer />
         </>
     )
 }

@@ -4,11 +4,15 @@ import projet3 from '../assets/project-to-be-resized-4-768x512.jpg'
 import projet4 from '../assets/project-to-be-resized-7-768x512.jpg'
 import projet5 from '../assets/project-to-be-resized-6-768x512.jpg'
 import projet6 from '../assets/project-to-be-resized-768x512.jpg'
+import Entete from '../components/Entete'
+import Footer from '../components/Footer'
 import styles from '../styles/Projets.module.css'
 
 function Projets() {
     return (
         <>
+            <Entete />
+
             <section className={styles.banniere}>
                 <h1> Projets </h1>
                 <p>
@@ -85,6 +89,8 @@ function Projets() {
                     <button> Demander un devis </button>
                 </div>
             </section>
+
+            <Footer />
         </>
     )
 }

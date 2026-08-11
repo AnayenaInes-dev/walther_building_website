@@ -13,6 +13,8 @@ import styles from '../styles/Services.module.css'
 function Services() {
      return(
         <>
+            <Entete />
+
             <section className={styles.banniere}>
                 <h1> Services </h1>
                 <p>
@@ -145,6 +147,7 @@ function Services() {
                 </div>
             </section>
             
+            <Footer />
         </>
     )
 }

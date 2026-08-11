@@ -6,12 +6,16 @@ import linkedin from '../assets/icons8-linkedin-100.png'
 import facebook from '../assets/icons8-facebook-f-100.png'
 import x from '../assets/icons8-x-100.png'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import Entete from '../components/Entete'
+import Footer from '../components/Footer'
 import styles from '../styles/Contacts.module.css'
 
 function Contacts() {
     const position = [3.8209702, 11.4731585]
     return (
         <>
+            <Entete />
+
             <section className={styles.banniere}>
                 <hgroup>
                     <h1>Contacts</h1>
@@ -72,6 +76,8 @@ function Contacts() {
                     </MapContainer>
                 </div>
             </section>
+
+            <Footer />
         </>
     )
 }

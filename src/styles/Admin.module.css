@@ -1,0 +1,84 @@
+.conteneur {
+    width: 83%;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+}
+
+hgroup {
+    width: 90%;
+    padding: 0.5%;
+    border: 1px solid palevioletred;
+}
+
+hgroup h3 {
+    font-weight: 400;
+    font-size: medium;
+    color: rgb(14, 152, 255);
+}
+
+.conteneur div.recap {
+    width: 90%;
+    height: 39vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+}
+
+.conteneur .recap div.cartes {
+    width: 35vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid blueviolet;
+}
+
+.conteneur .recap div.cartes div {
+    width: 29%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    border: 1px solid rgb(62, 1, 28);
+}
+
+.conteneur .recap table {
+    width: 40%;
+    height: 52%;
+    border-collapse: collapse;
+}
+.conteneur .recap table caption{
+    font-size: 0.90rem;
+    font-weight: 400;
+    padding: 2% 0%;
+    border: 1px solid gray;
+}
+.conteneur .recap table tr {
+    /* padding: 12px 0.5%; */
+    border: 1px solid white;
+    background-color: rgba(62, 1, 28, 14%);
+}
+.conteneur .recap table tr td{
+    text-align: justify;
+    padding-left: 14px;
+}
+/* .conteneur div.graphiques{
+    width: 85%;
+    height: 50vh;
+    border: 1px solid gray;
+}
+.conteneur div.notifs{
+    width: 85%;
+    height: 30vh;
+    border: 1px solid gray;
+} */

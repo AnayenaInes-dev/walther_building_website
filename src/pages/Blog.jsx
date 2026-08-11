@@ -3,11 +3,15 @@ import vignette2 from '../assets/renovation-image.jpg'
 import vignette3 from '../assets/collaboration.jpeg'
 import vignette4 from '../assets/plan-de-construction-maison.jpg'
 import vignette5 from '../assets/10127.jpg'
+import Entete from '../components/Entete'
+import Footer from '../components/Footer'
 import styles from '../styles/Blog.module.css'
 
 function Blog() {
      return(
         <>
+            <Entete />
+
              <section className={styles.banniere}>
                 <h1> Blog </h1>
                 <p>
@@ -83,6 +87,8 @@ function Blog() {
                 </div>
                 <button> Voir plus </button>
             </section>
+
+            <Footer />
         </>
     )
 }

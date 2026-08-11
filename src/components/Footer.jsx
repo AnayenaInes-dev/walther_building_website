@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import localisation from '../assets/icons8-location-100.png'
-import enveloppe from '../assets/icons8-letter-100-outline.png'
-import telephone from '../assets/icons8-téléphone-100-outline.png'
+import enveloppe from '../assets/icons8-letter-100.png'
+import telephone from '../assets/icons8-phone-100.png'
 import whatsapp from '../assets/icons8-whatsapp-100.png'
-import linkedin from '../assets/icons8-linkedin-100.png'
+import linkedin from '../assets/icons8-phone-100.png'
 import facebook from '../assets/icons8-facebook-f-100.png'
 import x from '../assets/icons8-x-100.png'
 import logoBlanc from '../assets/logo-blanc-removebg.png';

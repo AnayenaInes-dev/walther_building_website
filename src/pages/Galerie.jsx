@@ -7,11 +7,15 @@ import photo6 from '../assets/project-to-be-resized-5-768x511.jpg'
 import photo7 from '../assets/walther-hero-2.jpg'
 import photo8 from '../assets/projet-chantier.jpg'
 import photo9 from '../assets/project-to-be-resized-768x512.jpg'
+import Entete from '../components/Entete'
+import Footer from '../components/Footer'
 import styles from '../styles/Galerie.module.css'
 
 function Galerie() {
      return(
         <>
+            <Entete />
+
             <section className={styles.banniereGalerie}>
                 <hgroup>
                     <h1> Galerie photo </h1>
@@ -35,6 +39,8 @@ function Galerie() {
                     <img src={photo9} width="300" height="200" alt="" />
                 </div>
             </section>
+
+            <Footer />
         </>
     )
 }

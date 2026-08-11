@@ -1,5 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .menu{
-    width: 20vw;
+    width: 16vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: rgb(14, 152, 255);
+}
+.menu div.logo{
+    width: 15vw;
+    height: 18vh;
+    /* border: 1px solid gray; */
+} 
+.menu div.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.menu nav{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    /* border: 1px solid gray; */
+}
+.menu nav div.pagesAdmin{
+    width: 85%;
+    height: 54%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* border: 1px solid white; */
+}
+.menu nav div.pagesAdmin a{
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menu nav div.parametres{
+    width: 85%;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* border: 1px solid white; */
+}
+.menu nav div.parametres a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }

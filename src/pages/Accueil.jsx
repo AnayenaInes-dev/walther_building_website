@@ -5,11 +5,15 @@ import iconePanneauSolaire from '../assets/icons8-panneau-solaire.png'
 import testiman from '../assets/testi-man.jpg'
 import testiwoman from '../assets/testi-woman.jpg'
 import Carrousel from '../components/Carrousel.jsx'
+import Entete from '../components/Entete.jsx'
+import Footer from '../components/Footer.jsx'
 import styles from '../styles/Accueil.module.css'
 
 function Accueil() {
     return (
         <>
+            <Entete />
+
             <section className={styles.principale}>
                 <div>
                     <h1> Construire votre avenir avec qualité & expertise </h1>
@@ -110,6 +114,7 @@ function Accueil() {
                 </div>
             </section>
 
+            <Footer />
         </>
     )
 }
